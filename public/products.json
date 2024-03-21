@@ -1,0 +1,442 @@
+[
+    {
+        "notebooks": [
+            {
+                "id": 1,
+                "titulo": " Notebook Lenovo IdeaPad 1 14ADA7 R3 14 Ryzen 3 3250U 8GB Ram 256GB SSD FRE",
+                "descripcion": "La notebook Lenovo IdeaPad 1 fue pensada para hacer tu vida más sencilla. Su diseño elegante e innovador y su comodidad para transportarla, la convertirá en tu PC favorita. Cualquier tarea que te propongas, ya sea en casa o en la oficina, la harás con facilidad gracias a su poderoso rendimiento.",
+                "disponibles": 12,
+                "precio": 299526.12,
+                "categoria": "notebook",
+                "imagen": "img-products-technology/1.jpg"
+            },
+            {
+                "id": 2,
+                "titulo": "Notebook HP 15-ef2529la plata natural 15.6, AMD Ryzen 5 5500U 8GB de RAM 512GB SSD",
+                "descripcion": "La notebook HP 15-ef2529la es una solución tanto para trabajar y estudiar como para entretenerte. Al ser portátil, el escritorio dejará de ser tu único espacio de uso para abrirte las puertas a otros ambientes ya sea en tu casa o en la oficina. Pantalla con gran impacto visual. Su pantalla de 15.6 y 1920x1080 px de resolución te brindará colores más vivos y definidos. Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición en cada detalle.",
+                "disponibles": 2,
+                "precio": 290999,
+                "categoria": "notebook",
+                "imagen": "img-products-technology/2.webp"
+            },
+            {
+                "id": 3,
+                "titulo": "notebook Asus Vivobook 15 X1502 azul 15.6 , Intel Core i5 1240P 8GB de RAM 256GB SSD, Intel Iris Xe Graphics G7 80EUs Windows 11 Home",
+                "descripcion": "Disfrutá de la perfecta combinación de rendimiento y diseño con esta notebook Asus Vivobook 15 X1502. Encontrarás en ella una excelente herramienta para tus trabajos de todos los días y para tus momentos de entretenimiento. Aprovechá la experiencia extraordinaria que la marca tiene para ofrecerte y optimizá la calidad de tus imágenes y videos. Eficiencia a tu alcance. Su procesador Intel Core i5 de 12 núcleos, está pensado para aquellas personas generadoras y consumidoras de contenidos. Con esta unidad central, la máquina llevará a cabo varios procesos de forma simultánea, desde edición de videos hasta retoques fotográficos con programas profesionales.",
+                "disponibles": 0,
+                "precio": 445499,
+                "categoria": "notebook",
+                "imagen": "img-products-technology/3.webp"
+            },
+            {
+                "id": 4,
+                "titulo": "Macbook Pro Mid 2022 Apple M2 Chip 256gb Silver Mnep3ll/a",
+                "descripcion": "El MacBook Pro de 13 pulgadas es más capaz que nunca. Sobrealimentado por el chip M2 de última generación, es el portátil profesional más portátil de Apple, con hasta 20 horas de duración de la batería. La computadora portátil MacBook Pro de 13 pulgadas es una potencia portátil. Haga más cosas más rápido con una CPU de 8 núcleos de última generación, una GPU de 10 núcleos y hasta 24 GB de memoria unificada.",
+                "disponibles": 5,
+                "precio": 1226247,
+                "categoria": "notebook",
+                "imagen": "img-products-technology/4.webp"
+            },
+            {
+                "id": 5,
+                "titulo": "Notebook Hp 14-dk1013dx 4gb Ram 128gb Ssd Amd Athlon Silver 3050u Windows10 Home 14 Hd",
+                "descripcion": "Descubre la Notebook Hp 14-dk1013dx Pro en color Storm gray, una opción ideal para aquellos que buscan rendimiento y estilo en un solo dispositivo. Con su potente procesador Intel Core i5 de 4 núcleos y 16 GB de memoria RAM DDR4, podrás realizar múltiples tareas de manera eficiente y sin interrupciones. Además, su capacidad de almacenamiento SSD de 512 GB te permitirá guardar todos tus archivos y documentos importantes con rapidez y seguridad.",
+                "disponibles": 23,
+                "precio": 229999,
+                "categoria": "notebook",
+                "imagen": "img-products-technology/5.webp"
+            }
+        ]
+    },
+    {
+        "microprocesador": [
+            {
+                "id": 6,
+                "titulo": "Micro Intel I3-10105F 4.4Ghz 6Mb S.1200",
+                "descripcion": "Realiza las funciones de la CPU en un único circuito integrado. Se pone en marcha cuando inicias tu ordenador y se encarga de activar el sistema operativo y los programas correspondientes. También realiza operaciones de diversa índole.",
+                "disponibles": 25,
+                "precio": 41095.58,
+                "categoria": "microprocesador",
+                "imagen": "img-products-technology/6.webp"
+            },
+            {
+                "id": 7,
+                "titulo": "Micro AMD Ryzen 3 4100 4.0 Ghz AM4 BOX",
+                "descripcion": "realiza las funciones de la CPU en un único circuito integrado. Se pone en marcha cuando inicias tu ordenador y se encarga de activar el sistema operativo y los programas correspondientes. También realiza operaciones de diversa índole.",
+                "disponibles": 56,
+                "precio": 59827.65,
+                "categoria": "microprocesador",
+                "imagen": "img-products-technology/7.jpg"
+            },
+            {
+                "id": 8,
+                "titulo": "Micro Intel I5-10400 4.3Ghz 12Mb S.1200",
+                "descripcion": "Realiza las funciones de la CPU en un único circuito integrado. Se pone en marcha cuando inicias tu ordenador y se encarga de activar el sistema operativo y los programas correspondientes. También realiza operaciones de diversa índole.",
+                "disponibles": 33,
+                "precio": 96740.77,
+                "categoria": "microprocesador",
+                "imagen": "img-products-technology/8.jpg"
+            },
+            {
+                "id": 9,
+                "titulo": "Micro AMD Ryzen 5 5600X 4.6 Ghz AM",
+                "descripcion": "Realiza las funciones de la CPU en un único circuito integrado. Se pone en marcha cuando inicias tu ordenador y se encarga de activar el sistema operativo y los programas correspondientes. También realiza operaciones de diversa índole.",
+                "disponibles": 79,
+                "precio": 137000.09,
+                "categoria": "microprocesador",
+                "imagen": "img-products-technology/9.jpg"
+            },
+            {
+                "id": 10,
+                "titulo": "Micro Intel I7-10700 4.8Ghz 16Mb S.1200",
+                "descripcion": "Realiza las funciones de la CPU en un único circuito integrado. Se pone en marcha cuando inicias tu ordenador y se encarga de activar el sistema operativo y los programas correspondientes. También realiza operaciones de diversa índole.",
+                "disponibles": 14,
+                "precio": 170745.93,
+                "categoria": "microprocesador",
+                "imagen": "img-products-technology/10.jpg"
+            },
+            {
+                "id": 11,
+                "titulo": "Micro Intel I9-12900 5.1Ghz 30Mb S.1700",
+                "descripcion": "Realiza las funciones de la CPU en un único circuito integrado. Se pone en marcha cuando inicias tu ordenador y se encarga de activar el sistema operativo y los programas correspondientes. También realiza operaciones de diversa índole.",
+                "disponibles": 7,
+                "precio": 42030.98,
+                "categoria": "microprocesador",
+                "imagen": "img-products-technology/11.jpg"
+            }
+        ]
+    },
+    {
+        "motherboard": [
+            {
+                "id": 12,
+                "titulo": "Motherboard Gigabyte A520M K V2 AM4",
+                "descripcion": "Conector NVMe PCIe Gen 3 x4 2280 M.2. Las placas base GIGABYTE se enfocan en brindar tecnología M.2 a los entusiastas que desean maximizar el potencial de su sistema. LAN GbE con gestión de ancho de banda. GbE LAN cuenta con una aplicación de administración de ancho de banda de red que ayuda a mejorar la latencia de la red y mantener tiempos de ping bajos para brindar una mejor capacidad de respuesta en entornos de LAN abarrotados. Consigue el silencio de los fans. Con Fan Stop, programe cualquier ventilador para que se detenga por completo cuando las temperaturas caigan por debajo de un umbral específico. Qué ventilador se detiene, según las lecturas de qué sensor y a qué temperatura, todo se puede personalizar a su gusto.",
+                "disponibles": 12,
+                "precio": 50552.60,
+                "categoria": "motherboard",
+                "imagen": "img-products-technology/12.jpg"
+            },
+            {
+                "id": 13,
+                "titulo": "Motherboard ASRock H510M-HVS 12000",
+                "descripcion": "Conector NVMe PCIe Gen 3 x4 2280 M.2. Las placas base GIGABYTE se enfocan en brindar tecnología M.2 a los entusiastas que desean maximizar el potencial de su sistema. LAN GbE con gestión de ancho de banda. GbE LAN cuenta con una aplicación de administración de ancho de banda de red que ayuda a mejorar la latencia de la red y mantener tiempos de ping bajos para brindar una mejor capacidad de respuesta en entornos de LAN abarrotados. Consigue el silencio de los fans. Con Fan Stop, programe cualquier ventilador para que se detenga por completo cuando las temperaturas caigan por debajo de un umbral específico. Qué ventilador se detiene, según las lecturas de qué sensor y a qué temperatura, todo se puede personalizar a su gusto.",
+                "disponibles": 101,
+                "precio": 51855.72,
+                "categoria": "motherboard",
+                "imagen": "img-products-technology/13.jpg"
+            },
+            {
+                "id": 14,
+                "titulo": "Motherboard Gigabyte B760M DS3H DDR4 S1700",
+                "descripcion": "Conector NVMe PCIe Gen 3 x4 2280 M.2. Las placas base GIGABYTE se enfocan en brindar tecnología M.2 a los entusiastas que desean maximizar el potencial de su sistema. LAN GbE con gestión de ancho de banda. GbE LAN cuenta con una aplicación de administración de ancho de banda de red que ayuda a mejorar la latencia de la red y mantener tiempos de ping bajos para brindar una mejor capacidad de respuesta en entornos de LAN abarrotados. Consigue el silencio de los fans. Con Fan Stop, programe cualquier ventilador para que se detenga por completo cuando las temperaturas caigan por debajo de un umbral específico. Qué ventilador se detiene, según las lecturas de qué sensor y a qué temperatura, todo se puede personalizar a su gusto.",
+                "disponibles": 76,
+                "precio": 91723.26,
+                "categoria": "motherboard",
+                "imagen": "img-products-technology/14.jpg"
+            },
+            {
+                "id": 15,
+                "titulo": "Motherboard Gigabyte B660M AORUS PRO AX 1700 DDR5",
+                "descripcion": "Conector NVMe PCIe Gen 3 x4 2280 M.2. Las placas base GIGABYTE se enfocan en brindar tecnología M.2 a los entusiastas que desean maximizar el potencial de su sistema. LAN GbE con gestión de ancho de banda. GbE LAN cuenta con una aplicación de administración de ancho de banda de red que ayuda a mejorar la latencia de la red y mantener tiempos de ping bajos para brindar una mejor capacidad de respuesta en entornos de LAN abarrotados. Consigue el silencio de los fans. Con Fan Stop, programe cualquier ventilador para que se detenga por completo cuando las temperaturas caigan por debajo de un umbral específico. Qué ventilador se detiene, según las lecturas de qué sensor y a qué temperatura, todo se puede personalizar a su gusto.",
+                "disponibles": 41,
+                "precio": 167107.85,
+                "categoria": "motherboard",
+                "imagen": "img-products-technology/15.jpg"
+            }
+        ]
+    },
+    {
+        "memoriaRam": [
+            {
+                "id": 16,
+                "titulo": "Memoria Ram Patriot RGB 16GB 3200 Mhz DDR4",
+                "descripcion": "Si notás que tu computadora tiene bajo rendimiento o que su capacidad no se adapta a tus necesidades de uso, es momento de renovar su memoria RAM. Aumentarás su productividad y podrás trabajar de manera rápida y en simultáneo con múltiples aplicaciones. Potenciá tu PC. Con su tecnología DDR4, mejorará el desempeño de tu equipo, ya que opera en 3 y 4 canales, generando mayor fluidez y velocidad en la transferencia de datos. ¡Optimizá al máximo el rendimiento de tu computadora!",
+                "disponibles": 343,
+                "precio": 33308.64,
+                "categoria": "memoria-ram",
+                "imagen": "img-products-technology/16.jpg"
+            },
+            {
+                "id": 17,
+                "titulo": "Memoria Ram Kingston Fury Beast Black 8GB 3200 Mhz DDR4",
+                "descripcion": "Si notás que tu computadora tiene bajo rendimiento o que su capacidad no se adapta a tus necesidades de uso, es momento de renovar su memoria RAM. Aumentarás su productividad y podrás trabajar de manera rápida y en simultáneo con múltiples aplicaciones. Potenciá tu PC. Con su tecnología DDR4, mejorará el desempeño de tu equipo, ya que opera en 3 y 4 canales, generando mayor fluidez y velocidad en la transferencia de datos. ¡Optimizá al máximo el rendimiento de tu computadora!",
+                "disponibles": 289,
+                "precio": 15699.53,
+                "categoria": "memoria-ram",
+                "imagen": "img-products-technology/17.jpg"
+            },
+            {
+                "id": 18,
+                "titulo": "Memoria Ram PNY XLR8 Gaming MAKO EPIC-X 16GB 6000Mhz RGB BLACK DDR5",
+                "descripcion": "Si notás que tu computadora tiene bajo rendimiento o que su capacidad no se adapta a tus necesidades de uso, es momento de renovar su memoria RAM. Aumentarás su productividad y podrás trabajar de manera rápida y en simultáneo con múltiples aplicaciones. Potenciá tu PC. Con su tecnología DDR4, mejorará el desempeño de tu equipo, ya que opera en 3 y 4 canales, generando mayor fluidez y velocidad en la transferencia de datos. ¡Optimizá al máximo el rendimiento de tu computadora!",
+                "disponibles": 0,
+                "precio": 68232.85,
+                "categoria": "memoria-ram",
+                "imagen": "img-products-technology/18.jpg"
+            }
+        ]
+    },
+    {
+        "placaDeVideo": [
+            {
+                "id": 19,
+                "titulo": "Placa de Video Asus Nvidia Geforce GTX 1650 OC 4GB GDDR6",
+                "descripcion": "Este componente electrónico procesa la información que llega al dispositivo y los transforma en imágenes o videos para mostrarla visualmente. Es ideal para trabajar con aplicaciones gráficas ya que permite obtener imágenes más nítidas. Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero.",
+                "disponibles": 104,
+                "precio": 130452.09,
+                "categoria": "placa-de-video",
+                "imagen": "img-products-technology/19.jpg"
+            },
+            {
+                "id": 20,
+                "titulo": "Placa de Video AMD Radeon Sapphire Pulse RX 6600 Dual Fan 8GB GDDR6",
+                "descripcion": "Este componente electrónico procesa la información que llega al dispositivo y los transforma en imágenes o videos para mostrarla visualmente. Es ideal para trabajar con aplicaciones gráficas ya que permite obtener imágenes más nítidas. Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero.",
+                "disponibles": 79,
+                "precio": 205931.44,
+                "categoria": "placa-de-video",
+                "imagen": "img-products-technology/20.jpg"
+            },
+            {
+                "id": 21,
+                "titulo": "Placa de Video Asus Nvidia Geforce RTX 3050 Phoenix OC Dual 8GB GDDR6",
+                "descripcion": "Este componente electrónico procesa la información que llega al dispositivo y los transforma en imágenes o videos para mostrarla visualmente. Es ideal para trabajar con aplicaciones gráficas ya que permite obtener imágenes más nítidas. Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero.",
+                "disponibles": 173,
+                "precio": 233442.63,
+                "categoria": "placa-de-video",
+                "imagen": "img-products-technology/21.jpg"
+            },
+            {
+                "id": 22,
+                "titulo": "Placa de Video PNY RTX 3070 Ti VERTO RGB 8GB GDDR6",
+                "descripcion": "Este componente electrónico procesa la información que llega al dispositivo y los transforma en imágenes o videos para mostrarla visualmente. Es ideal para trabajar con aplicaciones gráficas ya que permite obtener imágenes más nítidas. Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero.",
+                "disponibles": 152,
+                "precio": 348208.21,
+                "categoria": "placa-de-video",
+                "imagen": "img-products-technology/22.jpg"
+            },
+            {
+                "id": 23,
+                "titulo": "Placa de video Nvidia Gigabyte Windforce GeForce RTX 20 Series RTX 2060 GV-N2060WF2OC-12GD OC Edition 12GB",
+                "descripcion": "Este componente electrónico procesa la información que llega al dispositivo y los transforma en imágenes o videos para mostrarla visualmente. Es ideal para trabajar con aplicaciones gráficas ya que permite obtener imágenes más nítidas. Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero.",
+                "disponibles": 0,
+                "precio": 194740.50,
+                "categoria": "placa-de-video",
+                "imagen": "img-products-technology/23.webp"
+            },
+            {
+                "id": 24,
+                "titulo": "Placa Video Gigabyte Nvidia Geforce Rtx4080 Eagle 16gb Pcreg",
+                "descripcion": "Este componente electrónico procesa la información que llega al dispositivo y los transforma en imágenes o videos para mostrarla visualmente. Es ideal para trabajar con aplicaciones gráficas ya que permite obtener imágenes más nítidas. Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero.",
+                "disponibles": 29,
+                "precio": 959999,
+                "categoria": "placa-de-video",
+                "imagen": "img-products-technology/24.webp"
+            }
+        ]
+    },
+    {
+        "almacenamiento": [
+            {
+                "id": 25,
+                "titulo": "Disco Solido SSD 120GB Gigabyte SATA III",
+                "descripcion": "Considerado un dispositivo de alto rendimiento, la unidad en estado sólido A400 de Kingston está diseñada para las personas más exigentes. Mejora de forma notable la capacidad de respuesta de su sistema, ya que alcanza velocidades de lectura/escritura de hasta 500MB/seg y 450MB/seg. Por ende, es 10 veces más rápido que un disco duro tradicional. Al estar compuesta por una memoria flash es silenciosa y posee pocas probabilidades de tener fallas. Irrompible. Además de su funcionalidad y soporte, la importancia de los discos de almacenamiento también radica en su calidad y resistencia. Despreocupate y disfrutá de la durabilidad de este producto debido a su capacidad de absorber y resistir fuertes impactos.",
+                "disponibles": 1023,
+                "precio": 9940.85,
+                "categoria": "almacenamiento",
+                "imagen": "img-products-technology/25.jpg"
+            },
+            {
+                "id": 26,
+                "titulo": "Disco Solido SSD 480GB Kingston A400 SATA III",
+                "descripcion": "Considerado un dispositivo de alto rendimiento, la unidad en estado sólido A400 de Kingston está diseñada para las personas más exigentes. Mejora de forma notable la capacidad de respuesta de su sistema, ya que alcanza velocidades de lectura/escritura de hasta 500MB/seg y 450MB/seg. Por ende, es 10 veces más rápido que un disco duro tradicional. Al estar compuesta por una memoria flash es silenciosa y posee pocas probabilidades de tener fallas. Irrompible. Además de su funcionalidad y soporte, la importancia de los discos de almacenamiento también radica en su calidad y resistencia. Despreocupate y disfrutá de la durabilidad de este producto debido a su capacidad de absorber y resistir fuertes impactos.",
+                "disponibles": 561,
+                "precio": 18535.28,
+                "categoria": "almacenamiento",
+                "imagen": "img-products-technology/26.jpg"
+            },
+            {
+                "id": 27,
+                "titulo": "DISCO EXTERNO 1TB TOSHIBA CANVIO BLACK 3.0",
+                "descripcion": "Considerado un dispositivo de alto rendimiento, la unidad en estado sólido A400 de Kingston está diseñada para las personas más exigentes. Mejora de forma notable la capacidad de respuesta de su sistema, ya que alcanza velocidades de lectura/escritura de hasta 500MB/seg y 450MB/seg. Por ende, es 10 veces más rápido que un disco duro tradicional. Al estar compuesta por una memoria flash es silenciosa y posee pocas probabilidades de tener fallas. Irrompible. Además de su funcionalidad y soporte, la importancia de los discos de almacenamiento también radica en su calidad y resistencia. Despreocupate y disfrutá de la durabilidad de este producto debido a su capacidad de absorber y resistir fuertes impactos.",
+                "disponibles": 781,
+                "precio": 30243.70,
+                "categoria": "almacenamiento",
+                "imagen": "img-products-technology/27.jpg"
+            },
+            {
+                "id": 28,
+                "titulo": "Disco Solido SSD 960GB Kingston A400 SATA III",
+                "descripcion": "Considerado un dispositivo de alto rendimiento, la unidad en estado sólido A400 de Kingston está diseñada para las personas más exigentes. Mejora de forma notable la capacidad de respuesta de su sistema, ya que alcanza velocidades de lectura/escritura de hasta 500MB/seg y 450MB/seg. Por ende, es 10 veces más rápido que un disco duro tradicional.",
+                "disponibles": 0,
+                "precio": 33474.55,
+                "categoria": "almacenamiento",
+                "imagen": "img-products-technology/28.jpg"
+            }
+        ]
+    },
+    {
+        "fuente": [
+            {
+                "id": 29,
+                "titulo": "Fuente 500W EVGA 500 BR 80 PLUS Bronze",
+                "descripcion": "Con la fuente de alimentación Sentey HBP600-GS podrás asegurar la corriente continua y estable de tu computadora de escritorio y optimizar el funcionamiento de sus componentes. Control de temperatura A través de su sistema de refrigeración, podrás mantener la temperatura ideal de sus componentes y evitar su sobrecalentamiento. Sin ruido ni distracciones. Debido a su funcionamiento silencioso, tu equipo operará minimizando el nivel de ruido, para que tu jornada sea más agradable. Protección asegurada. El sistema de protección OPP realiza un monitoreo constante de la corriente y, en caso de detectar una sobrecarga de energía, apaga el dispositivo para evitar daños.",
+                "disponibles": 98,
+                "precio": 34677.09,
+                "categoria": "fuente",
+                "imagen": "img-products-technology/29.jpg"
+            },
+            {
+                "id": 30,
+                "titulo": "Fuente 700W EVGA 700 BR 80 PLUS BRONZE",
+                "descripcion": "Con la fuente de alimentación Sentey HBP600-GS podrás asegurar la corriente continua y estable de tu computadora de escritorio y optimizar el funcionamiento de sus componentes.",
+                "disponibles": 192,
+                "precio": 50197.15,
+                "categoria": "fuente",
+                "imagen": "img-products-technology/30.jpg"
+            }
+        ]
+    },
+    {
+        "gabinete": [
+            {
+                "id": 31,
+                "titulo": "Gabinete Gamer Aureox Orion ARX 350G",
+                "descripcion": "Marca: Aureox. Modelo: ARX 350G. RGB led strip frontal. Colores rgb con selección por mother o botón dedicado. Multiring rgb fan trasero de 120mm. Filtro superior antipolvo removible magnéticamente. Lateral con ventana. Chasis gamer diseñado con cable management. Compartimiento inferior para psu, aislado del hard. Panel lateral: vidrio templado. Panel frontal:1x USB3.0 + 2x USB2.0 + HD AUDIO. Bahías: 2 x 3.5 + 2 x 2.5. Capacidad de ventiladores: 6. Soporte De Motherboards: ATX / Micro ATX / Mini-ITX. Apto para watercooling. Dimensiones: 34.2cm x 18.5cm x 41.3cm.",
+                "disponibles": 512,
+                "precio": 30305.46,
+                "categoria": "gabinete",
+                "imagen": "img-products-technology/31.jpg"
+            },
+            {
+                "id": 32,
+                "titulo": "Gabinete Gamer Aureox Volans ARX 360 G",
+                "descripcion": "El gabinete es el armazón que contiene los principales componentes de hardware de una computadora: su CPU, tarjeta madre, microprocesador, memoria, disco rígido y unidades internas (lector de CD o DVD, etc.). La principal función del gabinete es proteger a estos componentes. Sin embargo, la computación ha avanzado hacia el diseño artístico de gabinetes, que pasaron a ser, además, un objeto decorativo.",
+                "disponibles": 299,
+                "precio": 34631.74,
+                "categoria": "gabinete",
+                "imagen": "img-products-technology/32.jpg"
+            },
+            {
+                "id": 33,
+                "titulo": "Gabinete Gamer Raidmax X603tbf Black",
+                "descripcion": "El gabinete es el armazón que contiene los principales componentes de hardware de una computadora: su CPU, tarjeta madre, microprocesador, memoria, disco rígido y unidades internas.",
+                "disponibles": 0,
+                "precio": 40547.26,
+                "categoria": "gabinete",
+                "imagen": "img-products-technology/33.jpg"
+            },
+            {
+                "id": 34,
+                "titulo": "Gabinete Gamer Raidmax X616tbf",
+                "descripcion": "Los gabinetes también pueden sufrir modificaciones bastante importantes por parte de sus propietarios, con el fin de adecuarlos aún más a sus propios requerimientos, o con el simple hecho de variar su aspecto con motivos de pura estética. A esta técnica de modificación de gabinetes se le denomina comúnmente modding. Algunas de estas modificaciones pueden llegar a convertirse en verdaderas obras de arte, es más, dentro del ámbito inclusive se desarrollan importantes congresos y ferias, las cuales pueden llegar a ser muy importantes en relación a la cantidad de público asistente.",
+                "disponibles": 0,
+                "precio": 41422.57,
+                "categoria": "gabinete",
+                "imagen": "img-products-technology/34.jpg"
+            },
+            {
+                "id": 35,
+                "titulo": "Gabinete Xigmatek Aquarius Pro Arctic 7x Cooler Argb",
+                "descripcion": "Como su nombre lo indica, es un gabinete que ofrece particularidades especiales para los amantes de los juegos, tales como una mejor ventilación y la posibilidad de utilizar fuentes de alimentación de mayor potencia, además de un tamaño adecuado para poder distribuir los diferentes componentes con la mejor comodidad posible. La elección del gabinete adecuado para montar tu nueva computadora de juegos es una tarea que va mucho más allá de la simple cuestión estética.",
+                "disponibles": 29,
+                "precio": 79548.28,
+                "categoria": "gabinete",
+                "imagen": "img-products-technology/35.jpg"
+            }
+        ]
+    },
+    {
+        "monitor": [
+            {
+                "id": 36,
+                "titulo": "Monitor LED 19 Samsung LS19A330NHL VGA HDMI",
+                "descripcion": "Samsung está fielmente comprometida en brindar productos de calidad y que contribuyan a crear un mejor futuro para las personas. Como empresa líder en la industria tecnológica uno de sus objetivos principales es desarrollar avanzadas e innovadoras soluciones. Es por ello que con este monitor tendrás y disfrutarás de una gran experiencia visual en todo momento.Un monitor a tu medida Con tu pantalla LED no solo ahorrás energía, ya que su consumo es bajo, sino que vas a ver colores nítidos y definidos en tus películas o series favoritas.",
+                "disponibles": 20,
+                "precio": 51612.82,
+                "categoria": "monitor",
+                "imagen": "img-products-technology/36.jpg"
+            },
+            {
+                "id": 37,
+                "titulo": "Monitor LED IPS 22 Samsung T350H LF22T350FHL 75Hz Freesync",
+                "descripcion": "Samsung está fielmente comprometida en brindar productos de calidad y que contribuyan a crear un mejor futuro para las personas. Como empresa líder en la industria tecnológica uno de sus objetivos principales es desarrollar avanzadas e innovadoras soluciones. Es por ello que con este monitor tendrás y disfrutarás de una gran experiencia visual en todo momento. Con tu pantalla LED no solo ahorrás energía, ya que su consumo es bajo, sino que vas a ver colores nítidos y definidos en tus películas o series favoritas.",
+                "disponibles": 24,
+                "precio": 54287.35,
+                "categoria": "monitor",
+                "imagen": "img-products-technology/37.jpg"
+            },
+            {
+                "id": 38,
+                "titulo": "Monitor LED 24 Asus VG248QG 165Hz 0.5Ms Freesync Gsync",
+                "descripcion": "Samsung está fielmente comprometida en brindar productos de calidad y que contribuyan a crear un mejor futuro para las personas. Como empresa líder en la industria tecnológica uno de sus objetivos principales es desarrollar avanzadas e innovadoras soluciones. Es por ello que con este monitor tendrás y disfrutarás de una gran experiencia visual en todo momento. Con tu pantalla LED no solo ahorrás energía, ya que su consumo es bajo, sino que vas a ver colores nítidos y definidos en tus películas o series favoritas.",
+                "disponibles": 101,
+                "precio": 128760.50,
+                "categoria": "monitor",
+                "imagen": "img-products-technology/38.jpg"
+            }
+        ]
+    },
+    {
+        "teclados": [
+            {
+                "id": 39,
+                "titulo": "Teclado Redragon K552 Kumara Mecanico RGB Esp Switch BLUE",
+                "descripcion": "Sumérgete en el mundo de los videojuegos con el teclado gamer HyperX Alloy Core RGB. Diseñado especialmente para los amantes de los juegos, este teclado cuenta con un diseño QWERTY en español latinoamérica y una conexión USB 2.0 para garantizar una experiencia de juego fluida y sin interrupciones. La retroiluminación RGB te permite personalizar el aspecto de tu teclado, mientras que las 105 teclas, incluidas las teclas de acceso rápido y el pad numérico, te ofrecen un control total durante tus partidas. Además, las teclas anti-ghost aseguran que tus comandos sean registrados correctamente, incluso cuando presionas varias teclas al mismo tiempo. No te preocupes por derrames accidentales, ya que este teclado es resistente a salpicaduras, lo que te permite disfrutar de tus juegos favoritos sin preocupaciones. Con el teclado gamer HyperX Alloy Core RGB, estarás listo para enfrentarte a cualquier desafío en el mundo virtual.",
+                "disponibles": 2032,
+                "precio": 24090.80,
+                "categoria": "teclado",
+                "imagen": "img-products-technology/39.jpg"
+            },
+            {
+                "id": 40,
+                "titulo": "Teclado Mecanico 60% Redragon Dragonborn K630 White RGB Switch Brown",
+                "descripcion": "Sumérgete en el mundo de los videojuegos con el teclado gamer HyperX Alloy Core RGB. Diseñado especialmente para los amantes de los juegos, este teclado cuenta con un diseño QWERTY en español latinoamérica y una conexión USB 2.0 para garantizar una experiencia de juego fluida y sin interrupciones. La retroiluminación RGB te permite personalizar el aspecto de tu teclado, mientras que las 105 teclas, incluidas las teclas de acceso rápido y el pad numérico, te ofrecen un control total durante tus partidas. Además, las teclas anti-ghost aseguran que tus comandos sean registrados correctamente, incluso cuando presionas varias teclas al mismo tiempo. ",
+                "disponibles": 1239,
+                "precio": 19401.80,
+                "categoria": "teclado",
+                "imagen": "img-products-technology/40.jpg"
+            },
+            {
+                "id": 41,
+                "titulo": "Teclado Logitech K120 Usb",
+                "descripcion": "Sumérgete en el mundo de los videojuegos con el teclado gamer HyperX Alloy Core RGB. Diseñado especialmente para los amantes de los juegos, este teclado cuenta con un diseño QWERTY en español latinoamérica y una conexión USB 2.0 para garantizar una experiencia de juego fluida y sin interrupciones. La retroiluminación RGB te permite personalizar el aspecto de tu teclado, mientras que las 105 teclas, incluidas las teclas de acceso rápido y el pad numérico, te ofrecen un control total durante tus partidas. Además, las teclas anti-ghost aseguran que tus comandos sean registrados correctamente, incluso cuando presionas varias teclas al mismo tiempo. ",
+                "disponibles": 2971,
+                "precio": 8540.23,
+                "categoria": "teclado",
+                "imagen": "img-products-technology/41.jpg"
+            }
+        ]
+    },
+    {
+        "mouses": [
+            {
+                "id": 42,
+                "titulo": "Mouse Gaming Trust GXT940 Xidon RGB",
+                "descripcion": "Para trabajar desde casa con la computadora o aprovechar los momentos de ocio, necesitás comodidad y facilidad de movimiento. Con tu Cougar COUGAR AIRBLADER encontrá eso que buscás en un solo aparato con la mejor tecnología. Adaptado a tus movimientos. El mouse de juego te ofrecerá la posibilidad de marcar la diferencia y sacar ventajas en tus partidas. Su conectividad y sensor suave ayudará a que te desplaces rápido por la pantalla. La funcionalidad al alcance de tu mano. El sistema de detección de movimiento óptico te permitirá mover el cursor de una manera más precisa y sensible que en los sistemas tradicionales. Apto para fácil traslado. Navegá rápidamente por documentos y páginas web gracias su diseño ultra delgado, ergonómico, liviano y conveniente para llevar a donde quieras o viajar. ",
+                "disponibles": 304,
+                "precio": 3381.64,
+                "categoria": "mouse",
+                "imagen": "img-products-technology/42.jpg"
+            },
+            {
+                "id": 43,
+                "titulo": "Mouse Logitech G502 LIGHTSPEED",
+                "descripcion": "Para trabajar desde casa con la computadora o aprovechar los momentos de ocio, necesitás comodidad y facilidad de movimiento. Con tu Cougar COUGAR AIRBLADER encontrá eso que buscás en un solo aparato con la mejor tecnología. El mouse de juego te ofrecerá la posibilidad de marcar la diferencia y sacar ventajas en tus partidas. Su conectividad y sensor suave ayudará a que te desplaces rápido por la pantalla. El sistema de detección de movimiento óptico te permitirá mover el cursor de una manera más precisa y sensible que en los sistemas tradicionales. Navegá rápidamente por documentos y páginas web gracias su diseño ultra delgado, ergonómico, liviano y conveniente para llevar a donde quieras o viajar.",
+                "disponibles": 592,
+                "precio": 47361.71,
+                "categoria": "mouse",
+                "imagen": "img-products-technology/43.jpg"
+            },
+            {
+                "id": 44,
+                "titulo": "Mouse Logitech G703 LIGHTSPEED Inalambrico",
+                "descripcion": "Para trabajar desde casa con la computadora o aprovechar los momentos de ocio, necesitás comodidad y facilidad de movimiento. Con tu Cougar COUGAR AIRBLADER encontrá eso que buscás en un solo aparato con la mejor tecnología.",
+                "disponibles": 6,
+                "precio": 51933.84,
+                "categoria": "mouse",
+                "imagen": "img-products-technology/44.jpg"
+            }
+        ]
+    }
+]
