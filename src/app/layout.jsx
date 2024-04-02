@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import "./globals.css";
+
 //import "@/library/fontawesome.js"
 
 export const metadata = {
@@ -11,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Navbar />
-        <main>{children}</main>
+        <main className="container mx-auto px-5 mt-4">{children}</main>
       </body>
     </html>
   );
