@@ -39,6 +39,7 @@ export async function DELETE({ params }) {
     const product = await Product.findByIdAndDelete(params.productId);
     return NextResponse.json({ status: "succes", message: "Product deleted" });
   } catch (error) {
+    console.log(error);
     return NextResponse.json({
       message: error.message,
       status: 500,

@@ -3,9 +3,16 @@ import { NextResponse } from "next/server";
 import Product from "@/models/Product";
 
 export async function GET() {
-  connectDB();
-  const products = await Product.find();
-  return NextResponse.json(products);
+  try {
+    connectDB();
+    const products = await Product.find();
+    return NextResponse.json(products);
+  } catch (error) {
+    return NextResponse.json({
+      message: error.message,
+      status: 500,
+    });
+  }
 }
 
 export async function POST(request) {

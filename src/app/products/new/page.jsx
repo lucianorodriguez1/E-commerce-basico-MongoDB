@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 
 function FormProduct() {
   const [newProduct, setNewProduct] = useState({
@@ -11,7 +11,7 @@ function FormProduct() {
     category: "",
   });
   const router = useRouter();
-
+  const params = useParams();
   const createProduct = async () => {
     try {
       const res = await fetch("http://localhost:3000/api/products", {
@@ -45,7 +45,9 @@ function FormProduct() {
         className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
       >
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
-          Create Product
+         {
+            !params.productId ? "Create Product" : "Edit Product"
+         } Create Product
         </h1>
         <div className="mb-4">
           <label
