@@ -2,11 +2,11 @@ import { connectDB } from "@/utils/mongoose";
 import { NextResponse } from "next/server";
 import Product from "@/models/Product";
 
-export async function GET({ params }) {
+export async function GET(request,{ params }) {
   try {
     connectDB();
     const product = await Product.findById(params.productId);
-    return NextResponse.json({ status: "succes", data: product });
+    return NextResponse.json({ status: `Obtengo el params id: ${params.id}`, data: product });
   } catch (error) {
     return NextResponse.json(error.message, {
       status: 500,
@@ -33,7 +33,7 @@ export async function PUT(request, { params }) {
     });
   }
 }
-export async function DELETE({ params }) {
+export async function DELETE(request,{ params }) {
   try {
     connectDB();
     const product = await Product.findByIdAndDelete(params.productId);
