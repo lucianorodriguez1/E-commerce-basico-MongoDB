@@ -8,6 +8,12 @@ function ProductCard({ product }) {
         <h3>{product.title}</h3>
         <p>${product.price}</p>
         <p>Stock:{product.stock} unidades</p>
+        <p className="text-slate-400 my-2">
+          <span className="mr-1">
+            Created at:
+          </span>
+          {new Date(product.createdAt).toLocaleDateString()}
+        </p>
       </div>
     </Link>
   );

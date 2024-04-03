@@ -11,10 +11,12 @@ function ProductContainer({ product }) {
   const HandleDelete = async () => {
     if (window.confirm("Estas seguro que quieres eliminar este producto?")) {
       try {
-        const res = await fetch(`http://localhost:3000/api/products/`, {
-          method: "DELETE",
-        });
-        console.log("Response:", res);
+        const res = await fetch(
+          `http://localhost:3000/api/products/${params.id}`,
+          {
+            method: "DELETE",
+          }
+        );
         if (res.ok) {
           console.log("Product deleted successfully");
           router.push("/");
@@ -26,14 +28,20 @@ function ProductContainer({ product }) {
         console.error("Error deleting product:", error);
       }
     }
-  }
+  };
 
   /////
+  ///controlador de actualizar
+  const HandleUpdate = async () => {
+    try {
+      router.push(`/products/update/${params.id}`);
+    } catch (error) {
+      console.error("Error updating product:", error);
+    }
+  };
 
   //ver porm console el params
-  useEffect(() => {
-    console.log(params);
-  }, []);
+  useEffect(() => {}, []);
   /////
   return (
     <div>
@@ -53,6 +61,7 @@ function ProductContainer({ product }) {
         </button>
         <button
           type="button"
+          onClick={HandleUpdate}
           className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
         >
           Actualizar

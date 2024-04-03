@@ -8,7 +8,7 @@ async function loadProduct(id) {
   const serializedProduct = JSON.parse(JSON.stringify(product));
   return serializedProduct;
 }
-
+ 
 async function ProductPage({ params }) {
   const product = await loadProduct(params.id);
   return <ProductContainer product={product} />;
