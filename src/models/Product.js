@@ -23,11 +23,11 @@ const productModel = new Schema(
       trim: true,
     },
     code: {
-        type: Number,
-        required: [true, "El code es requerido"],
-        unique:true,
-        trim: true,
-      },
+      type: Number,
+      required: [true, "El code es requerido"],
+      unique: true,
+      trim: true,
+    },
     category: {
       type: String,
       required: [true, "La categoria es requerida"],

@@ -6,9 +6,9 @@ function FormProduct() {
   const [newProduct, setNewProduct] = useState({
     title: "",
     description: "",
-    price: "",
-    stock: "",
-    code:"",
+    price: 0,
+    stock: 0,
+    code:0,
     category: "",
   });
   const router = useRouter();
