@@ -1,21 +1,48 @@
-import NextAuth from "next-auth"
+import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
+import User from "@/models/User";
+import { connectDB } from "@/utils/mongoose";
+import bcrypt from "bcryptjs";
 
 const handler = NextAuth({
-  providers:[
+  providers: [
     CredentialsProvider({
-        name:'credentials',
-        credentials:{
-            email:{},
-            password:{}
+      name: "credentials",
+      credentials: {
+        email: {
+          label: "Email",
+          type: "email",
+          placeholder: "Correo electronico",
         },
-        async authorize(credentials,req){
-            const user={id:'1',username:'jon',email:'dmmd@ssnkx',password:"ejddde"};
-            return user;
-        }
+        password: { label: "Password", type: "text", placeholder: "******" },
+      },
+      async authorize(credentials, req) {
+        await connectDB();
+        const userFound = await User.findOne({ email: credentials.email }).select("+password");
+        if (!userFound) throw new Error("Invalid credentials");
+        const isPasswordMatch = await bcrypt.compare(
+          credentials.password,
+          userFound.password
+        );
+        if (!isPasswordMatch) throw new Error("Invalid credentials");
+        //console.log(credentials);
+        return userFound; 
+      },
+    }),
+  ],
+  callbacks: {
+    jwt({ account, token, user, session }) {
+      if (user) token.user = user;
+      return token;
+    },
+    session({ session, token }) {
+      session.user = token.user;
+      return session;
+    },
+  },
+  pages:{
+    signIn:"/login"
+  }
+});
 
-    })
-  ]
-})
-
-export { handler as GET, handler as POST }
+export { handler as GET, handler as POST };

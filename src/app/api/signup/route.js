@@ -7,7 +7,7 @@ import { createAccessToken } from "@/library/jwt";
 
 export async function GET() {
   try {
-    connectDB();
+    await connectDB();
     const users = await User.find();
     return NextResponse.json({
       message: "register encontrado",
@@ -22,18 +22,16 @@ export async function GET() {
 }
 export async function POST(request) {
   try {
-    connectDB();
-    const data = await request.json();
-    const passwordHash = await bcrypt.hash(data.password, 10);
-    data.password = passwordHash;
-    const newUser = new User(data);
+    await connectDB();
+    const { username, email, password } = await request.json();
+    const passwordHash = await bcrypt.hash(password, 10);
+    const newUser = new User({ username, email, password: passwordHash });
     const savedUser = await newUser.save();
-    const token = await createAccessToken({ id: savedUser._id });
-    cookies().set("token", token);
+    // const token = await createAccessToken({ id: savedUser._id });
+    // cookies().set("token", token);
     return NextResponse.json(
       {
-        message: "Usuario creado",
-        data: savedUser,
+        savedUser,
       },
       {
         status: 201,

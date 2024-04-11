@@ -1,6 +1,8 @@
 "use client";
 import axios from "axios";
 import { useState } from "react";
+import { signIn } from "next-auth/react"; 
+import { useRouter } from "next/navigation";
 
 function RegisterPage() {
   const [user, setUser] = useState({
@@ -8,21 +10,26 @@ function RegisterPage() {
     email: "",
     password: "",
   });
-
+  
+  const router = useRouter();
   const handleChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(user);
     try {
-      const res = await axios.post("/api/register", {
+      const signupResponse = await axios.post("/api/signup", {
         username: user.username,
         email: user.email,
         password: user.password,
       });
-      console.log(res);
+      const res = await signIn('credentials',{
+        email:signupResponse.data.savedUser.email,
+        password:user.password,
+        redirect:false,
+      });
+      if(res.ok) return router.push("/dashboard");
     } catch (error) {
       console.log(error);
     }

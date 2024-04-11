@@ -20,7 +20,7 @@ const userModel = new Schema(
       type: String,
       required: [true, "El password es requerido"],
       trim: true,
-      selection:false
+      select:false
     },
   },
   {
