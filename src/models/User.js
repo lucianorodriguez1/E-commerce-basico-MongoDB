@@ -7,7 +7,7 @@ const userModel = new Schema(
       type: String,
       required: [true, "El username es requerido"],
       trim: true,
-      minLength:[4,"Username no puede ser menor a 4 cracteres"],
+      minLength:[4,"Username no puede ser menor a 4 cracteres"], 
       maxLength:[20,"Username no puede ser mas de 20 caracteres"]
     },
     email: {
